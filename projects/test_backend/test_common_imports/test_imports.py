@@ -1,6 +1,6 @@
-from common import utils
-from utils import requests, hello_world  # it must be imported from common pdm project
+import utils
+from utils.test_utils import hello_world, test_requests
 
 if __name__ == "__main__":
     print(hello_world())
-    # print(test_requests())
+    print(test_requests())
