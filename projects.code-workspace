@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "common" // common
+        },        
+        {
+            "path": "projects/test_backend/" // project1
+        }
+    ]
+}
