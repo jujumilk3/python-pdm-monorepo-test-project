@@ -16,6 +16,3 @@ requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
 
 [tool.pdm]
-
-[tool.pdm.dependencies]
-common = {path = "${PROJECT_ROOT}/../../common", develop = true}
